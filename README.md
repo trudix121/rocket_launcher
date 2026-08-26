@@ -32,7 +32,8 @@ Quickly add your favorite executables, search them, sort by usage, and launch th
 
 ## Screenshots
 
-> *(Add screenshots of the main window and the Add/Edit dialog here if you want)*
+![Main Window](photos/main.png)
+![Dialog Window](photos/add_dialog.png)
 
 ---
 
@@ -115,7 +116,7 @@ You can package it with PyInstaller:
 
 ```bash
 pip install pyinstaller
-pyinstaller --onefile --windowed --icon=logo.ico --name "Rocket Launcher" launcher.py
+pyinstaller --clean --onefile --windowed --icon=logo.ico --add-data "logo.ico;." --name RocketLauncher launcher.py
 ```
 
 The finished `.exe` will appear in the `dist/` folder.
