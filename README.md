@@ -32,8 +32,8 @@ Quickly add your favorite executables, search them, sort by usage, and launch th
 
 ## Screenshots
 
-![Main Window](photos/main.png)
-![Dialog Window](photos/add_dialog.png)
+![Main Window](photos/mainn.png)
+![Dialog Window](photos/addd_dialog.png)
 
 ---
 
